@@ -1,6 +1,10 @@
 # this is a sh document to help you Configuration your command in Mac
 
-this repo will help you to install homebrew, oh-my-zsh, zsh-autosuggestions
+this can help you to achievement this goal:
 
-to uses this repo, you need clone this repo to you download directory.
-and run "$ sh install.sh" in you terminal 
+1. install [https://brew.sh](Homebrew)   
+2. config zsh
+    - install [https://ohmyz.sh](oh-my-zsh)
+    - install [https://github.com/zsh-users/zsh-autosuggestions](zsh-autosuggestions)
+3. config vim
+    - install [https://github.com/junegunn/vim-plug](vim-Plug)

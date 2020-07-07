@@ -105,8 +105,8 @@ unsetopt menucomplete
 #
 # zsh aliases
 alias zshconfig="code ~/.zshrc"
-alias vimconfig="vim ~/.vimrc"
+alias vimconfig="vim ~/.vim/vimrc"
 alias ohmyzsh="open ~/.oh-my-zsh"
-alias theme="open ~/.oh-my-zsh/themes/$THEME.zsh-theme"
+alias theme="code ~/.oh-my-zsh/themes/$THEME.zsh-theme"
 # alias python3="/usr/local/Cellar/python/3.7.7/bin/python3.7"
 alias pip3="pip3.7"
