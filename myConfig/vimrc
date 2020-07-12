@@ -76,11 +76,18 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 " sytax: 
 " map {lhs} {rhs} 
 
-" Direction key
+" opreation key mapping.
+noremap > >>
+noremap < <<
 
-inoremap <tab>q <Esc>
+" motion key mapping. 
 noremap j k
 noremap k j
+map H ^
+map L $
+
+" command key mapping.
+inoremap <tab>q <Esc>
 map W :w<CR>
 map Q :q<CR>
 map q :<Nul>
@@ -181,5 +188,7 @@ Plug 'scrooloose/nerdcommenter' " in <space>cc to comment a line
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'kana/vim-textobj-user'
 Plug 'fadein/vim-FIGlet'
+
+" Some Plug find by myself.
 
 call plug#end()
