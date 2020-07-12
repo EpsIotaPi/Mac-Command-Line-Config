@@ -19,3 +19,5 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 cp ./myConfig/vimrc ~/.vim/vimrc
 ## 安装vim-Plug
 cp ./install-Tool/vim-Plug/plug.vim ~/.vim/autoload/
+## 安装 node,js 以适应自动补全插件
+curl -sL install-node.now.sh/lts | bash

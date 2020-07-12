@@ -139,6 +139,7 @@ Plug 'w0rp/ale'
 
 " Auto Complete
 " Plug 'ycm-core/YouCompleteMe',{'do': 'python3 install.py --all'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Undo Tree
 Plug 'mbbill/undotree/'
