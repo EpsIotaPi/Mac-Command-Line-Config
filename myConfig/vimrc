@@ -85,14 +85,23 @@ noremap j k
 noremap k j
 map H ^
 map L $
+noremap B gg
+noremap E G
+noremap g gf
 
 " command key mapping.
-inoremap <tab>q <Esc>
+imap <C-q> <Esc>
 map W :w<CR>
-map Q :q<CR>
-map q :<Nul>
+nmap Q :q<CR>
+"map q :<Nul>
 "restore vimrc
-map R :w<CR>:source $MYVIMRC<CR>  
+map <C-R> :w<CR>:source $MYVIMRC<CR>
+
+" Plug key mapping
+"nerdTree
+map <C-f> :NERDTreeToggle<CR>
+"markdownPreview
+
 
 " Split screen
 map <F1> :vsplit<CR>
@@ -114,6 +123,12 @@ map <C-Right> :vertical resize+2<CR>
 map tn :tabe<CR>
 map tl :+tabnext<CR>
 map th :-tabnext<CR>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" neovim config
+if has('nvim')
+
+endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins setting
@@ -138,7 +153,6 @@ Plug 'majutsushi/tagbar', { 'on': 'TagbarOpenAutoClose' }
 Plug 'w0rp/ale'
 
 " Auto Complete
-" Plug 'ycm-core/YouCompleteMe',{'do': 'python3 install.py --all'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Undo Tree
