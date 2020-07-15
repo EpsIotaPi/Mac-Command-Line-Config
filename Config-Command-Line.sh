@@ -19,12 +19,13 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 cp ./myConfig/vimrc ~/.vim/vimrc
 ## 安装vim-Plug
 cp ./install-Tool/vim-Plug/plug.vim ~/.vim/autoload/
-## 安装node.js以适应自动补全插件
+### 安装node.js以适应自动补全插件
 curl -sL install-node.now.sh/lts | bash
-
-# 安装neovim
+## 安装yarn
+brew install yarn
+## 安装neovim
 brew install neovim
 pip install neovim
-## 用软链接配置neovim
+### 用软链接配置neovim
 ln -s ~/.vim .config/nvim
-ln -s ~/.vimrc .config/nvim/init.vim
+ln -s ~/.vim/vimrc .config/nvim/init.vim
