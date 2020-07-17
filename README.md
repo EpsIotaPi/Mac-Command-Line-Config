@@ -1,5 +1,6 @@
 # README.md
 
+## What this repo can do
 ***this is a sh document to help you Configuration your command line in Mac***
 
 this script can help you to achievement this goal:
@@ -10,9 +11,18 @@ this script can help you to achievement this goal:
     - install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 3. config vim
     - install [vim-Plug](https://github.com/junegunn/vim-plug)
+    - install [node.js](https://nodejs.org/en/)
+    - install [yarn](https://github.com/yarnpkg/yarn)
+    - install [neovim](https://github.com/neovim/neovim)
 
+## install
+You should download `Mac-Command-Line-Config.sh` to you mac, and run 
+```
+$ sh Mac-Command-Line-Config.sh
+```
+in your terminal.app
 
-
+### one more thing
 You also should do:
 
 - Run `:PlugInstall` in vim
