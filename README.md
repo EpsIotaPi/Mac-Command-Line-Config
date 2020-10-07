@@ -16,9 +16,9 @@ this script can help you to achievement this goal:
     - install [neovim](https://github.com/neovim/neovim)
 
 ## install
-You should download `Mac-Command-Line-Config.sh` to you mac, and run 
+You should download `Config-Command-Line.sh` to you mac, and run 
 ```
-$ sh Mac-Command-Line-Config.sh
+$ sh Config-Command-Line.sh
 ```
 in your terminal.app
 

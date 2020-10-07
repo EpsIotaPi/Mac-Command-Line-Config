@@ -25,7 +25,14 @@ curl -sL install-node.now.sh/lts | bash
 brew install yarn
 ## 安装neovim
 brew install neovim
-pip install neovim
 ### 用软链接配置neovim
 ln -s ~/.vim .config/nvim
 ln -s ~/.vim/vimrc .config/nvim/init.vim
+
+# 安装python
+brew install python
+pip install numpy
+pip install matplotlib
+pip install flask
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow
+pip install neovim
